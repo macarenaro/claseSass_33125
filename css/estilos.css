@@ -1,0 +1,37 @@
+/*comentario css, si se ve en css*/
+* {
+  margin: 0;
+  padding: 0; }
+
+/*Estilos header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header nav {
+    width: 50%; }
+    header nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between; }
+      header nav ul li {
+        border: red solid 5px;
+        padding: 15px; }
+        header nav ul li:hover {
+          color: blueviolet; }
+
+/* estilos del main index*/
+main {
+  background-color: bisque;
+  background-image: url(../medios/charizard.jpg); }
+  main h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: red solid 5px; }
+  main .primerSection {
+    display: flex;
+    align-items: center;
+    color: #494848; }
+    main .primerSection img {
+      width: 40%; }

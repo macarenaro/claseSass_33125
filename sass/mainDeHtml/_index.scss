@@ -1,0 +1,22 @@
+/* estilos del main index*/
+@import "../variables";
+
+
+main{
+    background-color: bisque;
+    background-image: url(../medios/charizard.jpg);
+    h1{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        border: $borde-boton;
+    }
+    .primerSection{
+        display: flex;
+        align-items: center;
+        color: $negro;
+        img{
+            width: 40%;
+        }
+    }
+}

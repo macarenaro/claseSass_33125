@@ -1,0 +1,22 @@
+/*Estilos header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    nav{
+        width: 50%;
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            li{
+                border: $borde-boton;
+                padding: 15px;
+                &:hover{
+                   color: blueviolet; 
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+/*comentario css, si se ve en css*/
+// comentario sass, no se ve en css
+*{
+    margin: 0;
+    padding: 0;
+}
+@import "variables";
+@import "header";
+
+@import "mainDeHtml/index";
+
+
+// ultimo el de mediaQ
+@import "mediaQ";
+
+
